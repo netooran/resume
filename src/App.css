@@ -1,27 +1,9 @@
 .App {
-  text-align: center;
-  height: 100vh;
-  background-color: #282c34;
+  min-height: 100vh;
+  height: fit-content;
+  width: 100vw;
+  background-color: #000;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-logo {
-  height: 100vh;
-  pointer-events: none;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  display: flex;
 }
